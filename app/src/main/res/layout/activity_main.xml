@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E6E1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="466dp"
+        android:layout_height="148dp"
+        android:background="#CE57E2"
+        android:text="Incomming Call"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="305dp"
+        android:layout_height="304dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        app:srcCompat="@drawable/pic1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="651dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="528dp"
+        android:layout_marginBottom="1160dp"
+        android:text="+94778944327"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="344dp"
+        android:layout_height="205dp"
+        android:layout_marginBottom="200dp"
+        android:text="Cancel"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="374dp"
+        android:layout_height="196dp"
+        android:background="#1D6E20"
+        android:backgroundTint="#B43030"
+        android:text="Accept"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="1427dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
